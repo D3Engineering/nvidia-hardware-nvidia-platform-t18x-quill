@@ -170,7 +170,7 @@
 			usb2-2 {
 				status = "okay";
 				mode = "host";
-				vbus-supply = <&vdd_usb2_5v>;
+				vbus-supply = <&battery_reg>;
 			};
 			usb3-0 {
 				nvidia,usb2-companion = <2>;
